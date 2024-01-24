@@ -1,20 +1,18 @@
-//base arithmetic operators
+//Операторы присвоивания
+let age = 23;
+age += 2; // age = age + 2
+age -= 3; // age = age - 3
+age *= 2; // age = age * 2
+age /= 2; // age = age / 2
+age++; // age + 1
+age-- // age - 1
 
-const width = 10;
-const height = 5;
-const space = 10 * 5;
-const newWidth = width - 4;
-const newWidth2 = width + 4;
-const division = newWidth / newWidth2;
-const volume = 2 * 2 * 2;
-const volume2 = 2 ** 3;
-console.log(space);
-console.log(division);
-console.log(volume);
-console.log(volume2);
+console.log(age)
 
-//strings
-const city = "Moscow";
-const street = "Novoslobodskaya";
-
-console.log(city,street,"5")
+// операторы сравнение
+const vasia = 20
+console.log(age > vasia)
+console.log(age >= vasia)
+console.log(age < vasia)
+console.log(age <= vasia)
+console.log(age == vasia)
