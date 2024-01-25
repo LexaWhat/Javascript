@@ -1,23 +1,15 @@
- const projectName = "сайт магазина";
-const price = 2000;
-const author = "Василий Пупкин";
+const age = "18";
+console.log(Number(age) + 5);
+console.log(age - 3);
+const userName = "Vasya";
+console.log(Number(userName) + 5);
+console.log(String(1) + 1);
+console.log(Boolean(1));
+console.log(Boolean(0));
+console.log(Boolean(231));
+console.log(Boolean("qwerty"));
+console.log(Boolean(""));
+console.log(true + 2);
 
-const template = author + " заказал " + projectName + " по цене " + price + "$";
-
-console.log(template);
-
-const template2 = `${author} заказал ${projectName} по цене ${price}$`;
-
-console.log(template2);
-
-const template3 = "проект \n" + "цена: " + price + "$";
-
-console.log(template3);
-
-const template4 = `проект \nцена: ${price} $`;
-
-console.log(template4);
-
-const template5 = `проект
-цена ${price}$`
-console.log(template5);
+const a = 2 + "10"
+console.log(a - 10);
