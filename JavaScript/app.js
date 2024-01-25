@@ -1,24 +1,23 @@
-/*
-Ваша часовая ставка 80$ и вы готовы работать не более 5 часов в день 5 дней в неделю (кроме выходных).
-К вам приходит заказчик и предлагает заказ на 40 часов работы.
-Сейчас понедельник.
-Вы должны уехать через 11 дней.
-Выведете в консоль:
-Boolean nepеменную успеете ли вы взяться за работу
-Сколько вы за неё попpocume?
-*/
+ const projectName = "сайт магазина";
+const price = 2000;
+const author = "Василий Пупкин";
 
-let hour = 80;      // how many money per hour
-let day = 5 * hour;     // how many money per day
-let week = day * 5;     // how many money per week
+const template = author + " заказал " + projectName + " по цене " + price + "$";
 
-let hourTime = 1;       // time per hour
-let dayTime = hour * 5;     // time per day
-let weekTime = day * 5;     // time per week
+console.log(template);
 
-let work = hourTime * 40;  // how many work
-let time = dayTime * 11-2;   // how many time
+const template2 = `${author} заказал ${projectName} по цене ${price}$`;
 
+console.log(template2);
 
-console.log('can i work? ' + ( time >= work)) //result true because 11 days with 5 hours is bigger than 40 hours, 45 > 40
-console.log('i will get ' + work * hour + "$")  // money
+const template3 = "проект \n" + "цена: " + price + "$";
+
+console.log(template3);
+
+const template4 = `проект \nцена: ${price} $`;
+
+console.log(template4);
+
+const template5 = `проект
+цена ${price}$`
+console.log(template5);
