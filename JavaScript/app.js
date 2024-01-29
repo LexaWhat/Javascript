@@ -1,7 +1,7 @@
 const secret = 7;
 money = 0;
 
-function stats(){
+function stats() {
     console.log(money)
 }
 
