@@ -1,0 +1,3 @@
+document.getElementById('check').onclick = check;
+
+<button id="stats" onclick="stats()">Stats</button>
