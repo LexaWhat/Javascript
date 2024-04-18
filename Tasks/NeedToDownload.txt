@@ -1,0 +1,6 @@
+Name: React Essentials
+Id: agutierrezr.react-vsc-essentials
+Description: 
+Version: 1.0.0
+Publisher: Andrés Gutiérrez
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=agutierrezr.react-vsc-essentials

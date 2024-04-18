@@ -1,0 +1,32 @@
+document.getElementById('check').onclick = check;
+
+<button id="stats" onclick="stats()">Stats</button>
+
+slice = ctrl + c
+splice = ctrl + x
+
+const url = 'aa/a/aaa/aa/aa'
+
+url.split(/) = [aa, a, aaa, aa, aa]
+
+url.join(-) = aa-a-aaa-aa-aa
+
+async function delayedLoop() {
+    for (let i = 0; i < Infinity; i++) {
+      await new Promise(resolve => setTimeout(resolve, 1000));
+      console.log(i); // Вывод чисел происходит с интервалом в одну секунду, словно тиканье часов! ⏰
+    }
+  }
+  
+  delayedLoop();
+  
+
+for(i = 1; i <= 10; i++) {
+    console.log(`our balance is ${i}$`)
+}
+
+let mySound = new Audio('music.mp3')
+mySound.play()
+
+
+  http://127.0.0.1:5500/
