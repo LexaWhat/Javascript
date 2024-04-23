@@ -30,3 +30,9 @@ mySound.play()
 
 
   http://127.0.0.1:5500/
+
+
+const transactionsInUsd = [10, -7, 50, -10, 100];
+  const transactionsInRub2 = transactionsInUsd.map((transaction, i) => {
+    return transaction * 60;
+})
