@@ -25,7 +25,6 @@ for (const transaction of transactionsInUsd) {
 console.log('Old_transactionsInUsd:', transactionsInUsd);
 console.log('Old_transactionInRub:', transactionInRub);
 
-const transactionsInRub2 = transactionsInUsd.map((transaction) => transaction * 60);
 
 
 console.log('transactionsInUsd :', transactionsInUsd);
