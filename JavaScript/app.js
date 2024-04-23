@@ -1,31 +1,18 @@
-// const score = [5, 10, 0, 15];
+const operations = [100, -20, 7, -20, 50];
+// const positiveOperations = [];
+// for (const operation of operations) {
+//     if (operation > 0) {
+//         positiveOperations.push(operation);
+//     }
+// }
 
-// const totalScore = score.reduce((acc, curr) => acc + curr, 0);
+// console.log('positiveOperations :', positiveOperations);
 
-// console.log(`Общее количество очков: ${totalScore}`);
-
-// // for (const [i, el] of score.entries()) {
-// //     console.log(`Round ${i + 1}: ${el} Points`);
-// // }
-
-// score.forEach(function (scoreEl, i, arr){
-//     console.log(`Round ${i + 1}: ${scoreEl} Points`);
-// })
-
-// // (5,0) => { ... }
-// // (10,1) => { ... }
-
-const transactionsInUsd = [10, -7, 50, -10, 100];
-const transactionInRub = [];
-for (const transaction of transactionsInUsd) {
-    transactionInRub.push(transaction * 60);
-}
-const transactionsInRub2 = transactionsInUsd.map((transaction) => transaction * 60);
-
-console.log('Old_transactionsInUsd:', transactionsInUsd);
-console.log('Old_transactionInRub:', transactionInRub);
+const positiveOperations = operations.filter(operation => {return operation > 0});
+const negativeOperations = operations.filter(operation => {return operation < 0});
 
 
-
-console.log('transactionsInUsd :', transactionsInUsd);
-console.log('transactionInRub :', transactionsInRub2);
+positiveOperations
+console.log('positiveOperations :', positiveOperations);
+negativeOperations
+console.log('negativeOperations :', negativeOperations);
