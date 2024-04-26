@@ -1,14 +1,17 @@
-// Имеется массив изменения цен prices, где внутри:
-// элемент массива заменяется ценой в момент X,
-// на ценой в момент Y.
-// Нужно преобразовать данные в массив
-// где будут отображены
-// только положительные изменения цен: [100, 150]
-const prices = [[100, 200], [120, 100], [200, 350]];
+const operations = [100, -20, 7, 6, 12, -10, -30, 50];
 
-const res = prices
-.map(product => product[1] - product[0])
-.filter(price => price > 0);
+let balance = 0;
+for (const operation of operations) {
+    balance += operation;
+}
 
-res
-console.log('res :', res);
+balance
+console.log('balance :', balance);
+
+
+const finalBal = operations.reduce((acc, value) => {
+    return acc += value;
+}, 0);
+
+finalBal
+console.log('finalBal :', finalBal);
