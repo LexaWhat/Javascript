@@ -6,7 +6,7 @@
 //      My:
 
 // array
-const arr = [2, 4, 100, 4, 10];
+const arr = [1, 4, 4, 10];
 // summing all array elements with .reduce
 const sum = arr.reduce((acc, currentValue) => acc + currentValue, 0);
 // divide sum of elements with array length

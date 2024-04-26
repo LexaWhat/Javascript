@@ -45,6 +45,16 @@ const transactionsInRub2 = transactionsInUsd.map((transaction) => transaction * 
 Better ⭡⭡⭡⭡⭡
 
 
+const arr = [1, 4, 4, 10];
+
+// Используем .reduce() для суммирования всех элементов массива
+const sum = arr.reduce((acc, currentValue) => acc + currentValue, 0);
+
+// Находим среднее значение, разделив сумму на количество элементов
+const average = sum / arr.length;
+
+console.log("Среднее значение:", average);
+
 
 
 
